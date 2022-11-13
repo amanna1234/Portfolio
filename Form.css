@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.inp-label{
+    color:#24263B;
+    font-family: 'Poppins', sans-serif;
+   font-weight: 800;
+}
+
+.form-button{
+     width: 90px;
+     height: 35px;
+     border: 2px solid #FF5823;
+     border-radius: 3px;
+     background: #24263B;
+     color: white;
+}
+
+.form-button:hover{
+   
+    border: 2px solid #24263B;
+   
+}

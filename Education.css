@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+.Education-main{
+    height:fit-content;
+    border: 4px solid #FF5823;
+    -webkit-box-shadow:  0px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow:  0px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow:  0px 0px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.edu-style
+{
+border: 1px solid black;
+width: 200px;
+height: 1px;
+}
+
+.Education-heading{
+   color: #24263B;
+   font-family: 'Poppins', sans-serif;
+   font-weight: bolder;
+}
+
+.Education-subhead{
+    letter-spacing: 3px;
+    
+    font-size: 12px;
+    color: var(--black);
+}
+
+.edu-sub-style{
+    width: 50px ;
+    height: 10px;
+    background-color: #FF5823;
+    -webkit-box-shadow:  0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow:  0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow:  0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.Education-details{
+    width: 80vw;
+    padding:0 5px;
+   
+    
+}
+
+.edu-list-style{
+    width: 15px ;
+    height: 15px;
+    background-color: #FF5823;
+   
+}
+
+.Education-duration{
+    background-color: #FF5823;
+    width: fit-content;
+    height: 30px;
+    border-radius: 2px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 14px;
+    
+    
+}
+
+.college-name{
+    color: #FF5823;
+    font-weight:800;
+    font-family: 'Poppins', sans-serif;
+}
+
+.course-name{
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:bold;
+    opacity:0.75;
+    color: #24263B;
+
+}
+
+@media screen  and (max-width:1140px){
+    .Education-details{
+        width: 90vw;
+        height: fit-content;
+        
+    }
+}

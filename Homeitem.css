@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border: 4px solid white;
+    margin-bottom: 20px;
+    
+}
+
+.profile-image img {
+    width: 100%;
+}
+
+.main-row {
+    min-height: 300px;
+}
+
+.icon {
+    color: black;
+}
+
+.primary-text{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.Highlighted-text{
+    color: #FF5823 ;
+}
+
+.typical{
+    color: white;
+    font-size: 40px;
+    font-family: 'Crimson Text', serif;
+}
+
+.aim{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+}
+p{
+    margin: 0;
+}
+
+.hire-btn{
+   width: 150px;
+   height: 35px;
+   background-color: #24263B;
+   border: 2px solid white;
+   color: white;
+   font-family: 'Poppins', sans-serif;
+   font-size: 14px;
+   
+}
+
+.resume-btn{
+    width: 150px;
+    height: 35px;
+    background-color:  #FF5823;
+    border: 2px solid  #FF5823;
+    color: white;
+    margin: 0 7px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.hire-btn:hover{
+    border: 2px solid #FF5823;
+}
+
+.resume-btn:hover{
+   
+    background-color:  white;
+    border: 2px solid  white;
+    color:#24263B;
+    margin: 0 7px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+
+@media screen and (max-width : 560px){
+    .typical{
+        color: white;
+        font-size: 25px;
+        font-family: 'Crimson Text', serif;
+    }
+
+    .primary-text{
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .resume-btn{
+        width: 100px;
+        height: 35px;
+        
+    }
+
+    .hire-btn{
+        width: 100px;
+        height: 35px;
+        
+    }
+
+    .aim{
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+    }
+}
